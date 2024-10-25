@@ -2,33 +2,23 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title> Curriculum de Ariana Palacios </title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <! -- Metadatos para facilitar la busqueda Web [ACTUALIZAR] -->
-    <meta name="keywords" content="desarrollador web, Python,
-React, JavaScript, backend, frontend, programación, desarrollo de
-software, ingeniero de software, Java, Figma, C, C++, C#, Wireshark, Proteus, MySQL, SQL, Pycharm,
-Eclipse, Visual Studio, estructura de datos, R, X86, MIPS, Linux">
-    <! -- Metadatos para facilitar la busqueda Web [ACTUALIZAR] -->
-    <meta name="description" content="Desarrollador web full-stack con 5
-años de experiencia en la creación de aplicaciones web escalables.
-Experto en Python, Django y React. Busco un puesto desafiante en una
-empresa innovadora.">
+    <!-- ejemplos para agilitar la busqueda en la web -->
+    <meta name="keywords" content="poner, ejemplos">
+    <!-- lo mismo casi -->
+    <meta name="description" content="poner una descripcion aqui.">
     <meta name="author" content="Ariana Palacios">
-
 </head>
 
 <body>
-    <header> 
-        <h1> Ariana Palacios </h1>
-        <img src="https://placehold.co/400" alt="Placeholder image">
-
-    </header>
-    <main> 
+    <header>
+        <h1 class="title"> Ariana Palacios </h1>
         <nav>
-            <ul>
+            <ul id="links">
                 <li><a href="#resumen">Resumen</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#educacion">Educación</a></li>
@@ -37,8 +27,11 @@ empresa innovadora.">
                 <li><a href="#idiomas">Idiomas</a></li>
             </ul>
         </nav>
+        <!-- imagen aleatoria por el momento -->
+        <img id="imagen" src="https://placehold.co/400" alt="Imagen de Ariana Palacios">
+    </header>
 
-
+    <main>
         <section id="experiencia">
             <h2> Experiencia </h2>
             <article>
@@ -60,23 +53,12 @@ empresa innovadora.">
         <section id="habilidades">
             <h2> Habilidades </h2>
             <ul>
-                <li> Python </li>
-                <li> React </li>
-                <li> JavaScript </li>
-                <li> Java </li>
-                <li> Figma </li>
-                <li> C </li>
-                <li> Wireshark </li>
-                <li> Proteus </li>
-                <li> MySQL </li>
-                <li> Pycharm </li>
-                <li> R </li>
-                <li> MIPS </li>
-                <li> Linux </li>
-                <Li> LaTeX </Li>
+                <li> Escribir </li>
+                <li> habilidades </li>
+                <li> aquí </li>
             </ul>
         </section>
-        
+
         <section id="idiomas">
             <h2> Idiomas </h2>
             <ul>
@@ -93,11 +75,9 @@ empresa innovadora.">
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="experiencia">Experiencia Laboral:</label>
-                <textarea id="experiencia" name="experiencia" rows="5"
-                required></textarea>
+                <textarea id="experiencia" name="experiencia" rows="5" required></textarea>
                 <label for="educacion">Educación:</label>
-                <textarea id="educacion" name="educacion" rows="5"
-                required></textarea>
+                <textarea id="educacion" name="educacion" rows="5" required></textarea>
                 <label>Habilidades Técnicas:</label><br>
                 <input type="checkbox" name="habilidades" value="HTML"> HTML
                 <input type="checkbox" name="habilidades" value="CSS"> CSS
@@ -105,22 +85,22 @@ empresa innovadora.">
                 JavaScript
                 <label for="intereses">Intereses:</label>
                 <select id="intereses" name="intereses">
-                <option value="desarrollo">Desarrollo Web</option>
-                <option value="diseno">Diseño Gráfico</option>
-                <option value="marketing">Marketing Digital</option>
+                    <option value="desarrollo">Desarrollo Web</option>
+                    <option value="diseno">Diseño Gráfico</option>
+                    <option value="marketing">Marketing Digital</option>
                 </select>
                 <button type="submit">Enviar</button>
-                </form>
+            </form>
         </section>
 
 
     </main>
-    <footer> 
+    <footer>
         <p> &copy Ariana Palacios 2024 </p>
         <ul>
             <li><a href="https://aripsaen.github.io/Aripsaen/">Github</a></li>
-            <! -- Agregar link de LinkedIn [ACTUALIZAR] -->
-            <li><a href=" ">LinkedIn</a></li>
+            <!-- agregar mi link de LinkedIn (xd) -->
+                <li><a href=" ">LinkedIn</a></li>
         </ul>
     </footer>
 </body>

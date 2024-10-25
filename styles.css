@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* green grass color palette */
+    --grass-color-dark-green: #344e41;
+    --grass-color-medium-green: #3a5a40;
+    --grass-color-sage-green: #588157;
+    --grass-color-gray-green: #a3b18a;
+    --grass-color-white: #dad7cd;
+
+    /* commet color palette */
+    --commet-color-blue: #003049;
+    --commet-color-red: #d62828;
+    --commet-color-orange: #f77f00;
+    --commet-color-yellow: #fcbf49;
+    --commet-color-white: #eae2b7;
+
+    /* watermelon color palette */
+    --watermelon-color-red: #bc4749;
+    --watermelon-color-white: #f2e8cf;
+    --watermelon-color-light-green: #a7c957;
+    --watermelon-color-medium-green: #6a994e;
+    --watermelon-color-dark-green: #386641;
+    
+    --border-radius: 0.25rem;
+
+    --main-font: 'Roboto', sans-serif;
+}
+
+/* hacer vanilla todo */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+    font-family: var(--main-font);
+    background-color: var(--grass-color-white);
+    color: var(--grass-color-dark-green);
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    display: flex; /* Flexbox para organizar las dos columnas */
+    height: 100vh; /* Altura total de la ventana */
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding-top: 20px;
+    background-color: var(--commet-color-yellow);
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e76f51;
+}
+
+/* Contenido principal (columna derecha) */
+.content {
+    flex-grow: 1; /* Toma todo el espacio restante */
+    padding: 20px;
+    background-color: #f1faee; /* Color de fondo claro */
+}
+
+
+
