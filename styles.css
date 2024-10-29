@@ -49,13 +49,26 @@ html {
     padding: auto;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+    padding: auto;
+    
+
+}
+
 .sidebar {
-    position: fixed;
-    width: 25%;
+    background-color:#6a994e;
 }
 
 .content {
-    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color:#a3b18a;
+    height: 100opx;
 }
 
 
